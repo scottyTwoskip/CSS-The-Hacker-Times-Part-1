@@ -9,4 +9,75 @@ body {
     format("woff2");
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
     U+FE2E-FE2F;
+  background-color: #eee;
+  border-color: #eee;
+  color: black;
+}
+
+header {
+  text-align: center;
+  font-family: "Abril Fatface";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/abrilfatface/v19/zOL64pLDlL1D99S8g8PtiKchq-lmjdLh.woff2)
+    format("woff2");
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+    U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+title {
+  text-align: center;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/robotoslab/v25/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjovoSmYWRjRdE.woff2)
+    format("woff2");
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+    U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+.newspaper-container {
+  background-color: white;
+  box-shadow: #ddd;
+  width: 700px;
+  border-radius: 50px;
+  padding: 20px 30px 20px 20px;
+  box-shadow: 20%;
+}
+main {
+  color: #dd3232;
+}
+nav {
+  border: 20px;
+  border-color: #777;
+}
+li {
+  color: #777;
+  list-style: none;
+  margin-left: -37px;
+  margin-right: 0px;
+  display: inline-block;
+  padding: 25px;
+}
+#laptop {
+  width: 100%;
+}
+P {
+  color: black;
+  margin: 0 15px 10px 15px;
+}
+
+.section1 {
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  width: 37%;
+  margin: 20px;
+}
+
+.section2 {
+  display: inline-block;
+  width: 37%;
+  margin: 20px;
+  margin-left: 40px;
 }
